@@ -1,8 +1,8 @@
-# dotfiles
+# 🐧 dotfiles
 
-This repo contains the dotfiles for my wsl2 setup
+This repo contains my WSL2 dotfiles.
 
-## Requirements
+## 🛠️ Requirements
 
 ### Git
 
@@ -16,7 +16,13 @@ sudo apt install git
 sudo apt install stow
 ```
 
-## Installation
+### Tmux
+
+```
+sudo apt install tmux
+```
+
+## 📩 Installation
 
 First, check out the dotfiles repo in your $HOME directory using git
 
@@ -30,3 +36,7 @@ then use GNU stow to create symlinks
 ```
 stow .
 ```
+
+## 📜 License
+
+Feel free to use and modify these dotfiles to suit your needs.
