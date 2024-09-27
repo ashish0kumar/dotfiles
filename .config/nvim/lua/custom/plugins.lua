@@ -21,7 +21,8 @@ local plugins = {
         "prettierd",
         "css-lsp",
         "tailwindcss-language-server",
-        "typescript-language-server"
+        "typescript-language-server",
+        "clangd"
       }
     }
   },
