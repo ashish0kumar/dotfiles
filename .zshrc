@@ -64,10 +64,10 @@ alias nnn='nnn -e'
 alias pipes='Scripts/pipes.sh'
 
 # exa aliases
-alias ls='exa --group-directories-first'
-alias la='exa -a --group-directories-first'
-alias l='exa -l --group-directories-first'
-alias ll='exa -la --group-directories-first'
+alias ls='exa --group-directories-first --icons'
+alias la='exa -a --group-directories-first --icons'
+alias l='exa -l --group-directories-first --icons'
+alias ll='exa -la --group-directories-first --icons'
 
 # nvm setup
 export NVM_DIR="$HOME/.nvm"
