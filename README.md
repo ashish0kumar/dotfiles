@@ -2,7 +2,7 @@
 
 Welcome devs! Here you'll find all the configuration files that power my development environment, meticulously curated to provide an efficient, productive, and aesthetically pleasing setup.
 
-## 📂 Core
+## 🛠️ Core
 - **Zsh**: `.zshrc`, for custom aliases, functions, and prompt customization.
 - **Neovim (NvChad)**: Full configuration for [NvChad](https://nvchad.com/) stored in `.config/nvim`, featuring a plugin-rich environment.
 - **Tmux**: `.config/tmux/.tmux.conf`, with key bindings and session management for an efficient terminal workflow.
@@ -60,7 +60,7 @@ GNU Stow is used to manage symlinks for these configuration files. Each subdirec
   ```
 
 
-## 🛠️ Additional Tools
+## ⚒️ Additional Tools
 
 Here are some tools I recommend for enhancing your workflow:
 
