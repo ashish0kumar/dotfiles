@@ -8,7 +8,9 @@ Welcome devs! Here you'll find all the configuration files that power my develop
 - **Tmux**: `.config/tmux/.tmux.conf`, with key bindings and session management for an efficient terminal workflow.
 
 > [!NOTE]
-> I’m using WSL2 for my development environment. If you encounter any issues related to file permissions, symbolic links, or path configurations, please keep in mind that WSL2 may behave differently compared to a native Linux environment. You might need to adjust certain configurations accordingly.
+> I’m using WSL2 for my development environment.
+> 
+> If you encounter any issues related to file permissions, symbolic links, or path configurations, please keep in mind that WSL2 may behave differently compared to a native Linux environment. You might need to adjust certain configurations accordingly.
 
 
 ## ⚙️ Installation
