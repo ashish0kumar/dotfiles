@@ -102,6 +102,3 @@ export NNN_COLORS="#9997E5D3;4231"
 
 # Export the file colors for nnn
 export NNN_FCOLORS="$BLK$CHR$DIR$EXE$REG$HARDLINK$SYMLINK$MISSING$ORPHAN$FIFO$SOCK$UNKNOWN"
-
-# fetch
-nitch
