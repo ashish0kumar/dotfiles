@@ -1,17 +1,15 @@
-# 🐧 dotfiles
+<h1 align="center">🌿 dotfiles</h1>
 
 Welcome devs! Here you'll find all the configuration files that power my development environment, meticulously curated to provide an efficient, productive, and aesthetically pleasing setup.
+
+> [!NOTE]
+> I’m using WSL2 for my development environment. <br/>
+> If you encounter any issues related to file permissions, symbolic links, or path configurations, please keep in mind that WSL2 may behave differently compared to a native Linux environment. You might need to adjust certain configurations accordingly.
 
 ## 🛠️ Core
 - **Zsh**: `.zshrc`, for custom aliases, functions, and prompt customization.
 - **Neovim (NvChad)**: Full configuration for [NvChad](https://nvchad.com/) stored in `.config/nvim`, featuring a plugin-rich environment.
 - **Tmux**: `.config/tmux/.tmux.conf`, with key bindings and session management for an efficient terminal workflow.
-
-> [!NOTE]
-> I’m using WSL2 for my development environment.
-> 
-> If you encounter any issues related to file permissions, symbolic links, or path configurations, please keep in mind that WSL2 may behave differently compared to a native Linux environment. You might need to adjust certain configurations accordingly.
-
 
 ## ⚙️ Installation
 
@@ -61,27 +59,11 @@ GNU Stow is used to manage symlinks for these configuration files. Each subdirec
   stow -D <folder>
   ```
 
-
-## ⚒️ Additional Tools
-
-Here are some tools I recommend for enhancing your workflow:
-
-- Zsh Plugins: [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting), [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
-- Tmux Plugin Manager: [TPM](https://github.com/tmux-plugins/tpm)
-- NvChad Plugins: Managed with [lazy.nvim](https://github.com/folke/lazy.nvim)
-
-### ✨ For CLI Lovers
-
-These tools won't necessarily boost your productivity, but they'll definitely make your terminal experience more fun and visually appealing! Check out some of the ways you can add a little flair to your command-line setup:
-
-- [nnn](https://github.com/jarun/nnn) - (n3) is a full-featured terminal file manager.
-- [nitch](https://github.com/ssleert/nitch) - incredibly fast system fetch written in nim.
-- [btop](https://github.com/aristocratos/btop) - a resource monitor for the terminal.
-- [cmatrix](https://github.com/abishekvashok/cmatrix) - terminal based "The Matrix" like implementation.
-- [cbonsai](https://gitlab.com/jallbrit/cbonsai) - a bonsai tree generator, written in C using ncurses.
-- [pipes.sh](https://github.com/pipeseroni/pipes.sh) - Animated pipes terminal screensaver.
-
-
 ## 📜 License
 
-Feel free to use and modify my dotfiles. No guarantees that they’ll work on your system. 😊
+Feel free to use and modify these dotfiles to suit your needs.
+
+
+<p align="center">
+	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/footers/gray0_ctp_on_line.svg?sanitize=true" />
+</p>
