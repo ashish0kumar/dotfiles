@@ -11,17 +11,17 @@ Welcome devs! Here you'll find all the configuration files that power my develop
 
 | 📚 Entry                           | ✨ App                  |
 |------------------------------------|--------------------------|
-| Shell                              | 💖 [zsh](https://zsh.sourceforge.io/) [⚙️](https://github.com/ashish0kumar/dotfiles/blob/master/.zshrc) |
-| Terminal Emulator                  | [windows terminal](https://github.com/microsoft/terminal) [⚙️](https://github.com/ashish0kumar/windots/blob/main/terminal/settings.json) |
-| Terminal Multiplexer               | 💖 [tmux](https://github.com/tmux/tmux) [⚙️](https://github.com/ashish0kumar/dotfiles/blob/master/.config/tmux/tmux.conf) |
-| Shell Prompt                       | [powerlevel10k](https://github.com/romkatv/powerlevel10k) |
-| Text Editor                        | 💖 [neovim](https://neovim.io/) [⚙️](https://github.com/ashish0kumar/dotfiles/tree/master/.config/nvim) |
-| LS Replacement                     | [eza](https://github.com/eza-community/eza) |
-| File Manager                       | 💖 [nnn](https://github.com/jarun/nnn) |
-| Fuzzy File Finder                  | 💖 [fzf](https://github.com/junegunn/fzf) |
-| Git TUI                            | [lazygit](https://github.com/jesseduffield/lazygit) |
-| System Monitor                     | [btop](https://github.com/aristocratos/btop) ⚙️ |
-| System Fetch                       | [fastfetch](https://github.com/fastfetch-cli/fastfetch) [⚙️](https://github.com/ashish0kumar/dotfiles/blob/master/.config/fastfetch/config.jsonc) |
+| **Shell**                              | 💖 [zsh](https://zsh.sourceforge.io/) [⚙️](https://github.com/ashish0kumar/dotfiles/blob/master/.zshrc) |
+| **Terminal Emulator**                  | [windows terminal](https://github.com/microsoft/terminal) [⚙️](https://github.com/ashish0kumar/windots/blob/main/terminal/settings.json) |
+| **Terminal Multiplexer**               | 💖 [tmux](https://github.com/tmux/tmux) [⚙️](https://github.com/ashish0kumar/dotfiles/blob/master/.config/tmux/tmux.conf) |
+| **Shell Prompt**                       | [powerlevel10k](https://github.com/romkatv/powerlevel10k) |
+| **Text Editor**                        | 💖 [neovim](https://neovim.io/) [⚙️](https://github.com/ashish0kumar/dotfiles/tree/master/.config/nvim) |
+| **LS Replacement**                     | [eza](https://github.com/eza-community/eza) |
+| **File Manager**                       | 💖 [nnn](https://github.com/jarun/nnn) |
+| **Fuzzy File Finder**                  | 💖 [fzf](https://github.com/junegunn/fzf) |
+| **Git TUI**                            | [lazygit](https://github.com/jesseduffield/lazygit) |
+| **System Monitor**                     | [btop](https://github.com/aristocratos/btop) [⚙️](https://github.com/ashish0kumar/dotfiles/blob/master/.config/btop/btop.conf) |
+| **System Fetch**                       | [fastfetch](https://github.com/fastfetch-cli/fastfetch) [⚙️](https://github.com/ashish0kumar/dotfiles/blob/master/.config/fastfetch/config.jsonc) |
 
 <hr/>
 
