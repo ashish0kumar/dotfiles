@@ -2,16 +2,34 @@
 
 Welcome devs! Here you'll find all the configuration files that power my development environment, meticulously curated to provide an efficient, productive, and aesthetically pleasing setup.
 
+
+## 🌸 Core CLI Info
+
+> [!Note]
+> Some of this apps have the config files included in the repo, which are marked with ⚙️.
+
+
+| 📚 Entry                           | ✨ App                  |
+|------------------------------------|--------------------------|
+| Shell                              | zsh ⚙️            	|
+| Terminal Emulator                  | windows terminal ⚙️   	|
+| Terminal Multiplexer               | tmux ⚙️               	|
+| Shell Prompt                       | powerlevel10k       	|
+| Text Editor                        | neovim ⚙️          	|
+| LS Replacement                     | eza                    	|
+| File Manager                       | nnn ⚙️            	|
+| Fuzzy File Finder                  | fzf                 	|
+| Git TUI                            | lazygit         		|
+| System Monitor                     | btop ⚙️               	|
+| System Fetch                       | fastfetch ⚙️        	|
+
+<hr/>
+
+## 🔧 Setup
+
 > [!NOTE]
 > I’m using WSL2 for my development environment. <br/>
 > If you encounter any issues related to file permissions, symbolic links, or path configurations, please keep in mind that WSL2 may behave differently compared to a native Linux environment. You might need to adjust certain configurations accordingly.
-
-## 🛠️ Core
-- **Zsh**: `.zshrc`, for custom aliases, functions, and prompt customization.
-- **Neovim (NvChad)**: Full configuration for [NvChad](https://nvchad.com/) stored in `.config/nvim`, featuring a plugin-rich environment.
-- **Tmux**: `.config/tmux/.tmux.conf`, with key bindings and session management for an efficient terminal workflow.
-
-## ⚙️ Installation
 
 1. **Clone the repository**:
     ```bash
@@ -28,22 +46,6 @@ Welcome devs! Here you'll find all the configuration files that power my develop
     stow .
     ```
 
-4. **Install NvChad**:
-    If NvChad isn’t already installed, clone the repository:
-    ```bash
-    git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1
-    ```
-
-    - Your custom configurations should be placed under `~/.config/nvim/lua/custom/` (for key mappings, options, etc.).
-    - NvChad uses [lazy.nvim](https://github.com/folke/lazy.nvim) for plugin management.
-
-
-## 🚀 Usage
-After symlinking, the configurations will be applied automatically when you restart your terminal or application. To apply changes, reload or source the files:
-- Zsh: `source ~/.zshrc`
-- Tmux: `tmux source ~/.tmux.conf`
-- NvChad: Restart Neovim or run `:Lazy sync` inside Neovim to sync plugins using **lazy.nvim**.
-
 
 ## 🔗 Stow Guide
 GNU Stow is used to manage symlinks for these configuration files. Each subdirectory of the repo contains the dotfiles for a specific application, and Stow handles linking these to your home directory. 
@@ -58,6 +60,8 @@ GNU Stow is used to manage symlinks for these configuration files. Each subdirec
   ```bash
   stow -D <folder>
   ```
+
+<hr/>
 
 ## 📜 License
 
