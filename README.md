@@ -1,7 +1,19 @@
 <h1 align="center">🌿 dotfiles</h1>
 
-Welcome devs! Here you'll find all the configuration files that power my development environment, meticulously curated to provide an efficient, productive, and aesthetically pleasing setup.
+Welcome devs! 👋 Here you'll find all the configuration files that power my development environment, meticulously curated to provide an efficient, productive, and aesthetically pleasing setup.
 
+## ✨ Features
+
+**Included configs:**
+
+- 🐚 **zsh**
+- ⚡ **powerlevel10k**
+- 🖥️ **tmux**
+- 🔮 **neovim (nvchad)**
+- 📊 **btop**
+- 🚀 **fastfetch**
+
+<hr/>
 
 ## 🌸 Core CLI Info
 
