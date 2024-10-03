@@ -27,7 +27,7 @@ Welcome devs! 👋 Here you'll find all the configuration files that power my de
 ## 🌸 Core CLI Info
 
 > [!Note]
-> Some of this apps have the config files included in the repo, which are marked with ⚙️. Also, my favorite are programs and tools are marked with 💖.
+> Some of this apps have the config files included in the repo, which are marked with ⚙️. Also, my favorite programs and tools are marked with 💖.
 
 
 | 📚 Entry                           | ✨ App                  |
