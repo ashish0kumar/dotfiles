@@ -48,6 +48,8 @@ Welcome devs! 👋 Here you'll find all the configuration files that power my de
 
 ## 🔧 Setup
 
+This repository utilizes [GNU Stow](https://www.gnu.org/software/stow/) for efficient dotfiles management, allowing for easy installation and organization of configuration files.
+
 > [!NOTE]
 > I’m using WSL2 for my development environment. <br/>
 > If you encounter any issues related to file permissions, symbolic links, or path configurations, please keep in mind that WSL2 may behave differently compared to a native Linux environment. You might need to adjust certain configurations accordingly.
