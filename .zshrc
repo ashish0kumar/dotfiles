@@ -69,6 +69,9 @@ alias la='eza -a --group-directories-first --icons'
 alias l='eza -l --group-directories-first --icons'
 alias ll='eza -la --group-directories-first --icons'
 
+
+export PATH=$HOME/.local/bin:$PATH
+
 # nvm setup
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
@@ -102,3 +105,6 @@ export NNN_COLORS="#9997E5D3;4231"
 
 # Export the file colors for nnn
 export NNN_FCOLORS="$BLK$CHR$DIR$EXE$REG$HARDLINK$SYMLINK$MISSING$ORPHAN$FIFO$SOCK$UNKNOWN"
+
+export _ZO_ECHO='1'
+eval "$(zoxide init --cmd cd zsh)"
