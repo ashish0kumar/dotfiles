@@ -112,7 +112,7 @@ GNU Stow is used to manage symlinks for these configuration files. Each subdirec
 Feel free to use and modify these dotfiles to suit your needs.
 
 
-## 🎉 ‎ Credits
+## 🎉 ‎Credits
 
 Big thanks to everyone at [r/unixporn](https://reddit.com/r/unixporn) for inspiring me to make this!
 
