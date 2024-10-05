@@ -87,9 +87,32 @@ GNU Stow is used to manage symlinks for these configuration files. Each subdirec
 
 <hr/>
 
+
 ## 📜 License
 
 Feel free to use and modify these dotfiles to suit your needs.
+
+
+## 🎉 ‎ Credits
+
+Big thanks to everyone at [r/unixporn](https://reddit.com/r/unixporn) for inspiring me to make this!
+
+I wanna point out some resources that helped me the most with the setup:
+
+- [Matt-FTW's README](https://github.com/Matt-FTW/dotfiles?tab=readme-ov-file) to help me with the overall design and distribution of the README 🙏
+- [GlazeWM](https://github.com/glzr-io/glazewm) for providing an incredible tiling window manager experience that enhances my workflow and productivity ✨
+- [Catppuccin](https://catppuccin.com) for making the Best Colorscheme Ever 🖌️
+- [Dreams of Code](https://www.youtube.com/@dreamsofcode/videos) / [Dreams of Autonomy](https://www.youtube.com/@dreamsofautonomy/videos) for helping out with almost all of my configs 🔧
+- [LierB](https://github.com/LierB/fastfetch) for the fastfetch config presets 📋
+
+
+## ✍️ Contributing
+
+Part of what makes the open source community special are the contributions. Any contributions will be **highly appreciated!**
+
+If you have any ideas or suggestions to make, feel free to [open an issue](https://github.com/ashish0kumar/dotfiles/issues) or [submit a PR](https://github.com/ashish0kumar/dotfiles/pulls)
+
+<br><br>
 
 
 <p align="center">
