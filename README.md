@@ -1,6 +1,9 @@
 <h1 align="center">🌿 dotfiles</h1>
 
-Welcome devs! 👋 Here you'll find all the configuration files that power my development environment, meticulously curated to provide an efficient, productive, and aesthetically pleasing setup.
+Welcome devs! 👋 Here you'll find all the configuration files that power my development environment on WSL2 (Linux), meticulously curated to provide an efficient, productive, and aesthetically pleasing setup.
+
+> [!NOTE]
+> All configurations related to Windows are maintained in this repository -> [windots](https://github.com/ashish0kumar/windots)
 
 <hr/>
 
