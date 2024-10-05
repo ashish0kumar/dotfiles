@@ -1,18 +1,34 @@
 <h1 align="center">🌿 dotfiles</h1>
 
-Welcome devs! 👋 Here you'll find all the configuration files that power my development environment on WSL2 (Linux), meticulously curated to provide an efficient, productive, and aesthetically pleasing setup.
+<div align="center">
+  <a href="#-about"><kbd> <br> 🌷 About <br> </kbd></a>&ensp;&ensp;
+  <a href="#-setup"><kbd> <br> 🔧 Setup <br> </kbd></a>&ensp;&ensp;
+  <a href="#-credits"><kbd> <br> 🎉 Credits <br> </kbd></a>&ensp;&ensp;
+</div>
 
-> [!NOTE]
-> All configurations related to Windows are maintained in this repository -> [windots](https://github.com/ashish0kumar/windots)
-
-<hr/>
+<br>
 
 ![](assets/1.png)
 ![](assets/2.png)
 ![](assets/3.png)
 ![](assets/4.png)
 
-<hr/>
+<div align="center">
+<p>
+<a href="https://github.com/ashish0kumar/dotfiles/stargazers"><img src="https://img.shields.io/github/stars/ashish0kumar/dotfiles?style=for-the-badge&logo=starship&color=C9CBFF&logoColor=C9CBFF&labelColor=302D41" alt="stars"><a>&nbsp;&nbsp;
+<a href="https://github.com/ashish0kumar/dotfiles/"><img src="https://img.shields.io/github/repo-size/ashish0kumar/dotfiles?style=for-the-badge&logo=hyprland&logoColor=f9e2af&label=Size&labelColor=302D41&color=f9e2af" alt="REPO SIZE"></a>&nbsp;&nbsp;
+<a href="https://github.com/ashish0kumar/dotfiles/commits/main/"><img src="https://img.shields.io/github/last-commit/ashish0kumar/dotfiles?style=for-the-badge&logo=github&logoColor=eba0ac&label=Last%20Commit&labelColor=302D41&color=eba0ac" alt="Last Commit"></a>&nbsp;&nbsp;
+<a href="https://github.com/ashish0kumar/dotfiles/LICENSE"><img src="https://img.shields.io/github/license/ashish0kumar/dotfiles?style=for-the-badge&logo=&color=CBA6F7&logoColor=CBA6F7&labelColor=302D41" alt="LICENSE"></a>&nbsp;&nbsp;
+</p>
+</div>
+
+
+## 🌷 About
+
+Welcome devs! 👋 Here you'll find all the configuration files that power my development environment on WSL2 (Linux), meticulously curated to provide an efficient, productive, and aesthetically pleasing setup.
+
+> [!NOTE]
+> All configurations related to Windows are maintained in this repository -> [windots](https://github.com/ashish0kumar/windots)
 
 ## ✨ Features
 
