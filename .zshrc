@@ -94,6 +94,10 @@ case ":$PATH:" in
 esac
 # pnpm end 
 
+# go
+export PATH=$PATH:/usr/local/go/bin
+
+
 # nnn file manager
 export NNN_OPENER=wslview
 
