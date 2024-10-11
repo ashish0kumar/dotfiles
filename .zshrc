@@ -110,5 +110,6 @@ export NNN_COLORS="#9997E5D3;4231"
 # Export the file colors for nnn
 export NNN_FCOLORS="$BLK$CHR$DIR$EXE$REG$HARDLINK$SYMLINK$MISSING$ORPHAN$FIFO$SOCK$UNKNOWN"
 
+# zoxide
 export _ZO_ECHO='1'
 eval "$(zoxide init --cmd cd zsh)"
