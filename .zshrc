@@ -97,6 +97,11 @@ esac
 # go
 export PATH=$PATH:/usr/local/go/bin
 
+# gemgo
+if [ -f ~/.gemgo_env ]; then
+  source ~/.gemgo_env
+fi
+
 
 # nnn file manager
 export NNN_OPENER=wslview
