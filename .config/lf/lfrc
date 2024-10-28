@@ -4,4 +4,14 @@ cmd open ${{
   nvim "$f"
 }}
 
+cmd open_media ${{
+  case "$f" in
+    *.jpg|*.jpeg|*.png|*.gif|*.bmp|*.webp) wslview "$f" ;;        
+    *.mp4|*.mkv|*.avi|*.mov|*.webm) wslview "$f" ;;        
+    *.mp3|*.wav|*.flac|*.aac|*.m4a) wslview "$f" ;;        
+    *) nvim "$f" ;;    
+  esac
+}}
+
 map <enter> open
+map <enter> open_media
