@@ -1,1 +1,7 @@
 set icons true
+
+cmd open ${{
+  nvim "$f"
+}}
+
+map <enter> open
