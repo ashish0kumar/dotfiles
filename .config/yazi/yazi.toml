@@ -1,0 +1,70 @@
+"$schema" = "https://yazi-rs.github.io/schemas/yazi.json"
+
+[manager]
+ratio = [1, 3, 4]
+sort_by = "natural"
+sort_dir_first = true
+
+[opener]
+folder = [
+  { run = 'nvim "$@"', block = true, desc = "neovim", for = "linux" },
+]
+
+text = [
+  { run = 'nvim "$@"', block = true, desc = "$EDITOR", for = "linux" },
+  { run = 'nvim "$@"', block = true, desc = "neovim", for = "linux" },
+]
+
+document = [
+  { run = 'wslview "$@"', orphan = true, desc = "wslview", for = "linux" },
+  { run = 'libreoffice "$@"', orphan = true, desc = "libreoffice", for = "linux" },
+]
+
+image = [
+  { run = 'wslview "$@"', orphan = true, desc = "wslview", for = "linux" },
+]
+video = [
+  { run = 'wslview "$@"', orphan = true, desc = "wslview", for = "linux" },
+]
+audio = [
+  { run = 'wslview "$@"', orphan = true, desc = "wslview", for = "linux" },
+]
+fallback = [
+  { run = 'wslview "$@"', orphan = true, desc = "wslview", for = "linux" },
+]
+
+[open]
+rules = [
+  { name = "*/", use = "folder" },
+
+  { mime = "text/*", use = "text" },
+  { mime = "image/*", use = "image" },
+  { mime = "video/*", use = "video" },
+  { mime = "application/octet-stream", use = "video" },
+  { mime = "audio/*", use = "audio" },
+  { mime = "inode/x-empty", use = "text" },
+  { mime = "application/json", use = "text" },
+
+  { mime = "application/zip", use = "archive" },
+  { mime = "application/gzip", use = "archive" },
+  { mime = "application/x-bzip", use = "archive" },
+  { mime = "application/x-bzip2", use = "archive" },
+  { mime = "application/x-tar", use = "archive" },
+  { mime = "application/x-7z-compressed", use = "archive" },
+  { mime = "application/x-rar", use = "archive" },
+  { mime = "application/pdf", use = "document" },
+  { mime = "application/epub+zip", use = "document" },
+  { mime = "application/x-mobipocket-ebook", use = "document" },
+
+  { mime = "*", use = "fallback" },
+]
+
+[[plugin.prepend_fetchers]]
+id = "git"
+name = "*"
+run = "git"
+
+[[plugin.prepend_fetchers]]
+id = "git"
+name = "*/"
+run = "git"

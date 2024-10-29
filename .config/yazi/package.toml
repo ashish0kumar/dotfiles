@@ -1,0 +1,5 @@
+[plugin]
+deps = [{ use = "yazi-rs/plugins:full-border", rev = "ad52adf" }, { use = "imsi32/yatline-githead", rev = "a6377a8" }, { use = "yazi-rs/plugins:smart-filter", rev = "ad52adf" }, { use = "yazi-rs/plugins:hide-preview", rev = "ad52adf" }, { use = "yazi-rs/plugins:git", rev = "ad52adf" }]
+
+[flavor]
+deps = []
