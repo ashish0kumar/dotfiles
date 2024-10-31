@@ -22,8 +22,9 @@ local plugins = {
         "css-lsp",
         "tailwindcss-language-server",
         "typescript-language-server",
-        "clangd"
-      }
+        "clangd",
+        "gopls",
+      },
     }
   },
   {
