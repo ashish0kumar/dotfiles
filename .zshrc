@@ -69,6 +69,7 @@ alias la='eza -a --group-directories-first --icons'
 alias l='eza -l --group-directories-first --icons'
 alias ll='eza -la --group-directories-first --icons'
 
+alias bat='batcat'
 
 export PATH=$HOME/.local/bin:$PATH
 
