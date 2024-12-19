@@ -112,3 +112,6 @@ eval "$(zoxide init --cmd cd zsh)"
 
 # bat theme
 export BAT_THEME="Catppuccin Mocha"
+
+# bat-man integration
+export MANPAGER="sh -c 'col -bx | batcat -l man -p'"
