@@ -69,7 +69,10 @@ alias la='eza -a --group-directories-first --icons'
 alias l='eza -l --group-directories-first --icons'
 alias ll='eza -la --group-directories-first --icons'
 
+# bat aliases
 alias bat='batcat'
+alias fbat="fzf --preview 'batcat --style=numbers --color=always --line-range :500 {}'"
+
 
 export PATH=$HOME/.local/bin:$PATH
 
@@ -106,3 +109,6 @@ fi
 # zoxide
 export _ZO_ECHO='1'
 eval "$(zoxide init --cmd cd zsh)"
+
+# bat theme
+export BAT_THEME="Catppuccin Mocha"
