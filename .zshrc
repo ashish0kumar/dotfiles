@@ -101,7 +101,7 @@ esac
 # go
 export PATH=$PATH:/usr/local/go/bin
 
-# gemgo
+# bubblegem
 if [ -f ~/.gemgo_env ]; then
   source ~/.gemgo_env
 fi
@@ -109,9 +109,6 @@ fi
 # zoxide
 export _ZO_ECHO='1'
 eval "$(zoxide init --cmd cd zsh)"
-
-# bat theme
-export BAT_THEME="Catppuccin Mocha"
 
 # bat-man integration
 export MANPAGER="sh -c 'col -bx | batcat -l man -p'"
