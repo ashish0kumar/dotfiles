@@ -131,6 +131,16 @@ Part of what makes the open source community special are the contributions. Any 
 
 If you have any ideas or suggestions to make, feel free to [open an issue](https://github.com/ashish0kumar/dotfiles/issues) or [submit a PR](https://github.com/ashish0kumar/dotfiles/pulls)
 
+## 💫 Star History
+
+<a href="https://star-history.com/#ashish0kumar/dotfiles&Date">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=ashish0kumar/dotfiles&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=ashish0kumar/dotfiles&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=ashish0kumar/dotfiles&type=Date" />
+ </picture>
+</a>
+
 <br><br>
 
 
