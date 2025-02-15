@@ -60,7 +60,6 @@ zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'
 # Aliases
 alias vim='nvim'
 alias c='clear'
-alias nnn='nnn -e'
 alias pipes='Scripts/pipes.sh'
 
 # exa aliases
@@ -73,6 +72,8 @@ alias ll='eza -la --group-directories-first --icons'
 alias bat='batcat'
 alias fbat="fzf --preview 'batcat --style=numbers --color=always --line-range :500 {}'"
 
+# fzfm
+alias fzfm='Scripts/fzfm/fzfm.sh'
 
 export PATH=$HOME/.local/bin:$PATH
 
@@ -112,3 +113,14 @@ eval "$(zoxide init --cmd cd zsh)"
 
 # bat-man integration
 export MANPAGER="sh -c 'col -bx | batcat -l man -p'"
+
+# fzf
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+export FZF_DEFAULT_OPTS=" \
+--color=bg+:#313244,bg:#1e1e2e,spinner:#f5e0dc,hl:#f38ba8 \
+--color=fg:#cdd6f4,header:#f38ba8,info:#cba6f7,pointer:#f5e0dc \
+--color=marker:#b4befe,fg+:#cdd6f4,prompt:#cba6f7,hl+:#f38ba8 \
+--color=selected-bg:#45475a \
+--multi
+--preview-window=right:70%"
