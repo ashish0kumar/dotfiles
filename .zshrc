@@ -60,7 +60,6 @@ zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'
 # Aliases
 alias vim='nvim'
 alias c='clear'
-alias pipes='Scripts/pipes.sh'
 
 # exa aliases
 alias ls='eza --group-directories-first --icons'
@@ -71,9 +70,6 @@ alias ll='eza -la --group-directories-first --icons'
 # bat aliases
 alias bat='batcat'
 alias fbat="fzf --preview 'batcat --style=numbers --color=always --line-range :500 {}'"
-
-# fzfm
-alias fzfm='Scripts/fzfm/fzfm.sh'
 
 export PATH=$HOME/.local/bin:$PATH
 
