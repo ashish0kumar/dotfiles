@@ -98,6 +98,8 @@ esac
 
 # go
 export PATH=$PATH:/usr/local/go/bin
+export GOPATH=$HOME/.local/go
+export PATH=$GOPATH/bin:$PATH
 
 # bubblegem
 if [ -f ~/.gemgo_env ]; then
