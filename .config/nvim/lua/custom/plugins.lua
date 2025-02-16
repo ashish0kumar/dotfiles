@@ -74,5 +74,11 @@ local plugins = {
       require("noice").setup({})
     end,
   },
+  {
+    "lukas-reineke/indent-blankline.nvim",
+    opts = function()
+      return require("custom.configs.indent_blankline")
+    end,
+  },
 }
 return plugins
