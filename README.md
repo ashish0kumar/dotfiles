@@ -8,11 +8,11 @@
 
 <br>
 
-![](assets/1.png)
-![](assets/2.png)
-![](assets/6.png)
-![](assets/5.png)
-![](assets/4.png)
+![](assets/fetch.png)
+![](assets/nvim.png)
+![](assets/cli_replace.png)
+![](assets/yazi.png)
+![](assets/btop.png)
 
 <div align="center">
 <p>
@@ -29,7 +29,7 @@
 Welcome devs! 👋 Here you'll find all the configuration files that power my development environment on WSL2 (Linux), meticulously curated to provide an efficient, productive, and aesthetically pleasing setup.
 
 > [!NOTE]
-> All configurations related to Windows are maintained in this repository -> [windots](https://github.com/ashish0kumar/windots)
+> All configurs related to **Windows** are maintained in this repository: [**windots**](https://github.com/ashish0kumar/windots)
 
 ## ✨ Features
 
@@ -48,8 +48,8 @@ Welcome devs! 👋 Here you'll find all the configuration files that power my de
 
 ## 🌸 Core CLI Info
 
-> [!Note]
-> Some of this apps have the config files included in the repo, which are marked with ⚙️. Also, my favorite programs and tools are marked with 💖.
+> [!NOTE]
+> Some of this apps have the **config files** included in the repo, which are marked with ⚙️. Also, my **favorite programs** and tools are marked with 💖.
 
 
 | 📚 Entry                           | ✨ App                  |
@@ -72,7 +72,7 @@ Welcome devs! 👋 Here you'll find all the configuration files that power my de
 
 ## 🔧 Setup
 
-This repository utilizes [GNU Stow](https://www.gnu.org/software/stow/) for efficient dotfiles management, allowing for easy installation and organization of configuration files.
+This repository utilizes [**GNU Stow**](https://www.gnu.org/software/stow/) for efficient dotfiles management, allowing for easy installation and organization of configuration files.
 
 1. **Clone the repository**:
     ```bash
@@ -91,7 +91,8 @@ This repository utilizes [GNU Stow](https://www.gnu.org/software/stow/) for effi
 
 
 ## 🔗 Stow Guide
-GNU Stow is used to manage symlinks for these configuration files. Each subdirectory of the repo contains the dotfiles for a specific application, and Stow handles linking these to your home directory. 
+
+**GNU Stow** is used to manage symlinks for these configuration files. Each subdirectory of the repo contains the dotfiles for a specific application, and Stow handles linking these to your home directory. 
 
 - To symlink a config:
   ```bash
@@ -118,11 +119,10 @@ Big thanks to everyone at [r/unixporn](https://reddit.com/r/unixporn) for inspir
 
 I wanna point out some resources that helped me the most with the setup:
 
-- [Matt-FTW's README](https://github.com/Matt-FTW/dotfiles?tab=readme-ov-file) to help me with the overall design and distribution of the README 🙏
-- [GlazeWM](https://github.com/glzr-io/glazewm) for providing an incredible tiling window manager experience that enhances my workflow and productivity ✨
-- [Dreams of Code](https://www.youtube.com/@dreamsofcode/videos) / [Dreams of Autonomy](https://www.youtube.com/@dreamsofautonomy/videos) for helping out with almost all of my configs 🔧
-- [LierB](https://github.com/LierB/fastfetch) for the fastfetch config presets 📋
-- [Catppuccin](https://catppuccin.com) for making the Best Colorscheme Ever 🖌️
+- [**Matt-FTW's README**](https://github.com/Matt-FTW/dotfiles?tab=readme-ov-file) to help me with the overall design and distribution of the **README** 🙏
+- [**GlazeWM**](https://github.com/glzr-io/glazewm) for providing an incredible **tiling window manager** experience that enhances my workflow and productivity ✨
+- [**Dreams of Code**](https://www.youtube.com/@dreamsofcode/videos) / [**Dreams of Autonomy**](https://www.youtube.com/@dreamsofautonomy/videos) for helping out with almost all of my **configs** 🔧
+- [**Catppuccin**](https://catppuccin.com) for making the Best Colorscheme Ever 🖌️
 
 
 ## ✍️ Contributing
