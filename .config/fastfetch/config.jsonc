@@ -1,9 +1,9 @@
 {
   "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
   "logo": {
-    "source": "~/.config/fastfetch/cat.txt",
+    "source": "ubuntu_small",
     "padding": {
-      "top": 3,
+      "top": 2,
       "right": 4
     }
   },
@@ -21,33 +21,33 @@
     {
       "type": "os",
       "key": " ",
-      "keyColor": "33"
+      "keyColor": "green"
     },
     {
       "type": "kernel",
       "key": " ",
-      "keyColor": "33"
+      "keyColor": "green"
     },
     {
       "type": "shell",
       "key": " ",
-      "keyColor": "33"
+      "keyColor": "green"
     },
     {
       "type": "uptime",
       "key": " ",
-      "keyColor": "33"
+      "keyColor": "green"
     },
     {
       "type": "packages",
       "format": "{} (apt)",
       "key": " ",
-      "keyColor": "33"
+      "keyColor": "green"
     },
     {
       "type": "memory",
       "key": " ",
-      "keyColor": "33"
+      "keyColor": "green"
     },
     "break",
     {
