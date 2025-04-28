@@ -3,7 +3,6 @@
 <div align="center">
   <a href="#-about"><kbd> <br> 🌷 About <br> </kbd></a>&ensp;&ensp;
   <a href="#-setup"><kbd> <br> 🔧 Setup <br> </kbd></a>&ensp;&ensp;
-  <a href="#-credits"><kbd> <br> 🎉 Credits <br> </kbd></a>&ensp;&ensp;
 </div>
 
 <br>
@@ -108,28 +107,13 @@ This repository utilizes [**GNU Stow**](https://www.gnu.org/software/stow/) for 
 <hr/>
 
 
+## ✍️ Contributing
+
+If you have any ideas or suggestions to make, feel free to [open an issue](https://github.com/ashish0kumar/dotfiles/issues) or [submit a PR](https://github.com/ashish0kumar/dotfiles/pulls)
+
 ## 📜 License
 
 Feel free to use and modify these dotfiles to suit your needs.
-
-
-## 🎉 ‎Credits
-
-Big thanks to everyone at [r/unixporn](https://reddit.com/r/unixporn) for inspiring me to make this!
-
-I wanna point out some resources that helped me the most with the setup:
-
-- [**Matt-FTW's README**](https://github.com/Matt-FTW/dotfiles?tab=readme-ov-file) to help me with the overall design and distribution of the **README** 🙏
-- [**GlazeWM**](https://github.com/glzr-io/glazewm) for providing an incredible **tiling window manager** experience that enhances my workflow and productivity ✨
-- [**Dreams of Code**](https://www.youtube.com/@dreamsofcode/videos) / [**Dreams of Autonomy**](https://www.youtube.com/@dreamsofautonomy/videos) for helping out with almost all of my **configs** 🔧
-- [**Catppuccin**](https://catppuccin.com) for making the Best Colorscheme Ever 🖌️
-
-
-## ✍️ Contributing
-
-Part of what makes the open source community special are the contributions. Any contributions will be **highly appreciated!**
-
-If you have any ideas or suggestions to make, feel free to [open an issue](https://github.com/ashish0kumar/dotfiles/issues) or [submit a PR](https://github.com/ashish0kumar/dotfiles/pulls)
 
 ## 💫 Star History
 
