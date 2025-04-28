@@ -65,7 +65,7 @@ Welcome devs! 👋 Here you'll find all the configuration files that power my de
 | **File Manager**                       | 💖 [yazi](https://yazi-rs.github.io/) [⚙️](https://github.com/ashish0kumar/dotfiles/tree/master/.config/yazi) |
 | **Fuzzy File Finder**                  | 💖 [fzf](https://github.com/junegunn/fzf) |
 | **Git TUI**                            | [lazygit](https://github.com/jesseduffield/lazygit) |
-| **System Monitor**                     | [btop](https://github.com/aristocratos/btop) [⚙️](https://github.com/ashish0kumar/dotfiles/blob/master/.config/btop/btop.conf) |
+| **System Monitor**                     | [btop](https://github.com/aristocratos/btop) [⚙️](https://github.com/ashish0kumar/dotfiles/blob/master/.config/btop/btop.conf) & [bottom](https://github.com/ClementTsang/bottom) [⚙️](https://github.com/ashish0kumar/dotfiles/blob/master/.config/bottom/bottom.toml) |
 | **System Fetch**                       | [fastfetch](https://github.com/fastfetch-cli/fastfetch) [⚙️](https://github.com/ashish0kumar/dotfiles/blob/master/.config/fastfetch/config.jsonc) |
 
 <hr/>
