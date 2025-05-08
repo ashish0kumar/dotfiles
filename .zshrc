@@ -72,6 +72,21 @@ alias ll='eza -la --group-directories-first --icons'
 alias bat='batcat'
 alias fbat="fzf --preview 'batcat --style=numbers --color=always --line-range :500 {}'"
 
+# git aliases
+alias gs="git status --short"
+alias gd="git diff"
+
+alias ga="git add"
+alias gc="git commit"
+alias gp="git push"
+alias gu="git pull"
+
+alias gl="git log"
+alias gb="git branch"
+
+alias gi="git init"
+alias gcl="git clone"
+
 export PATH=$HOME/.local/bin:$PATH
 
 # nvm setup
