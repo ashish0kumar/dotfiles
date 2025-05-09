@@ -58,6 +58,10 @@ zstyle ':completion:*' menu no
 zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'
 zstyle ':completion:*' dumpfile ~/.cache/zsh/zcompdump
 
+# Default editor
+export EDITOR=nvim
+export GIT_EDITOR=nvim
+
 # Aliases
 alias vim='nvim'
 alias c='clear'
