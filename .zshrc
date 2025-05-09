@@ -86,6 +86,9 @@ alias gu="git pull"
 alias gl="git log --all --graph --pretty=format:'%C(magenta)%h %C(white) %an %ar%C(auto) %D%n%s%n'"
 
 alias gb="git branch"
+alias gba="git branch -a"
+alias gn="git checkout -b"
+
 alias gi="git init"
 alias gcl="git clone"
 
@@ -111,17 +114,11 @@ case ":$PATH:" in
   *":$PNPM_HOME:"*) ;;
   *) export PATH="$PNPM_HOME:$PATH" ;;
 esac
-# pnpm end 
 
 # go
 export PATH=$PATH:/usr/local/go/bin
 export GOPATH=$HOME/.local/go
 export PATH=$GOPATH/bin:$PATH
-
-# bubblegem
-if [ -f ~/.gemgo_env ]; then
-  source ~/.gemgo_env
-fi
 
 # zoxide
 export _ZO_ECHO='1'
