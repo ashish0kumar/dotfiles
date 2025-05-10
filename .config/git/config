@@ -1,0 +1,95 @@
+[user]
+	name = Ashish Kumar
+  email = ashishkumar901336@gmail.com
+
+[commit]
+  template = ~/.config/git/template
+
+[core]
+  compression = 9
+  whitespace = error
+  preloadindex = true
+	editor = nvim
+
+[advice]
+  addEmptyPathspec = false
+  pushNonFastForward = false
+  statusHints = false
+
+[status]
+  branch = true
+  short = true
+  showStash = true
+  showUntrackedFiles = all
+
+[init]
+  defaultBranch = main
+
+[diff]
+  context = 3
+  renames = copies
+  interHunkContext = 10
+
+[pager]
+  branch = false
+  tag = false
+  diff = diff-so-fancy
+
+[push]
+  autoSetupRemote = true
+  default = current
+  followTags = true
+
+[pull]
+  default = current
+  rebase = true
+
+[rebase]
+  autoStash = true
+  missingCommitsCheck = warn
+
+[log]
+  abbrevCommit = true
+  graphColors = blue,yellow,cyan,magenta,green,red
+
+[branch]
+  sort = -committerdate
+
+[tag]
+  sort = -taggerdate
+
+[interactive]
+  diffFilter = diff-so-fancy --patch
+  singlekey = true
+
+# Colors
+[color "decorate"]
+  HEAD         = red
+  branch       = blue
+  tag          = yellow
+  remoteBranch = magenta
+
+[color "branch"]
+  current  = magenta
+  local    = white
+  remote   = yellow
+  upstream = green
+  plain    = blue
+
+[color "diff"]
+  meta       = black bold
+  frag       = magenta
+  context    = white
+  whitespace = yellow reverse
+  old        = red
+
+# Third party
+[diff-so-fancy]
+  markEmptyLines = false
+
+# URL shortcuts
+[url "git@github.com:ashish0kumar/"]
+  insteadOf = "me:"
+
+[url "git@github.com:"]
+  insteadOf = "gh:"
