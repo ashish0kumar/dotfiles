@@ -27,8 +27,8 @@ designed for my personal use but can serve as a useful starting point for others
 looking to streamline their setups.
 
 > [!NOTE]
-> All configs related to **Windows** are maintained in this repository:
-> [**windots**](https://github.com/ashish0kumar/windots)
+> All configurations related to my **Windows environment** are maintained in a
+> separate repository: [**windots**](https://github.com/ashish0kumar/windots)
 
 ## ✨ Features
 
