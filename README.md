@@ -34,16 +34,16 @@ looking to streamline their setups.
 
 | 🛠️ Tool          | 📄 Description                    | ⚙️ Config                                                                                                             |
 | ---------------- | --------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| 🐚 **zsh**       | Unix shell                        | [~/.zshrc](https://github.com/ashish0kumar/dotfiles/blob/main/.zshrc)                                                 |
-| ⚡ **p10k**      | Zsh prompt theme                  | [~/.p10k.zsh](https://github.com/ashish0kumar/dotfiles/blob/main/.p10k.zsh)                                           |
-| 🪄 **git**       | Version control system            | [~/.config/git/](https://github.com/ashish0kumar/dotfiles/blob/main/.config/git/)                                      |
-| 🖥️ **tmux**      | Terminal multiplexer              | [~/.config/tmux/tmux.conf](https://github.com/ashish0kumar/dotfiles/blob/main/.config/tmux/tmux.conf)                 |
-| 🔮 **neovim**    | Text editor                       | [~/.config/nvim/](https://github.com/ashish0kumar/dotfiles/blob/main/.config/nvim/)                                    |
-| 🦇 **bat**       | File viewer with syntax highlight | [~/.config/bat/config](https://github.com/ashish0kumar/dotfiles/blob/main/.config/bat/config)                         |
-| 📂 **yazi**      | Terminal File manager             | [~/.config/yazi/](https://github.com/ashish0kumar/dotfiles/blob/main/.config/yazi/)                                    |
-| 📊 **btop**      | Resource monitor                  | [~/.config/btop/btop.conf](https://github.com/ashish0kumar/dotfiles/blob/main/.config/btop/btop.conf)                 |
-| 📈 **bottom**    | Resource monitor (alternative)    | [~/.config/bottom/bottom.toml](https://github.com/ashish0kumar/dotfiles/blob/main/.config/bottom/bottom.toml)         |
-| 🚀 **fastfetch** | System info display               | [~/.config/fastfetch/config.jsonc](https://github.com/ashish0kumar/dotfiles/blob/main/.config/fastfetch/config.jsonc) |
+| 🐚 **zsh**       | Unix shell                        | [`~/.zshrc`](https://github.com/ashish0kumar/dotfiles/blob/main/.zshrc)                                                 |
+| ⚡ **p10k**      | Zsh prompt theme                  | [`~/.p10k.zsh`](https://github.com/ashish0kumar/dotfiles/blob/main/.p10k.zsh)                                           |
+| 🪄 **git**       | Version control system            | [`~/.config/git/`](https://github.com/ashish0kumar/dotfiles/blob/main/.config/git/)                                      |
+| 🖥️ **tmux**      | Terminal multiplexer              | [`~/.config/tmux/tmux.conf`](https://github.com/ashish0kumar/dotfiles/blob/main/.config/tmux/tmux.conf)                 |
+| 🔮 **neovim**    | Text editor                       | [`~/.config/nvim/`](https://github.com/ashish0kumar/dotfiles/blob/main/.config/nvim/)                                    |
+| 🦇 **bat**       | File viewer with syntax highlight | [`~/.config/bat/config`](https://github.com/ashish0kumar/dotfiles/blob/main/.config/bat/config)                         |
+| 📂 **yazi**      | Terminal File manager             | [`~/.config/yazi/`](https://github.com/ashish0kumar/dotfiles/blob/main/.config/yazi/)                                    |
+| 📊 **btop**      | Resource monitor                  | [`~/.config/btop/btop.conf`](https://github.com/ashish0kumar/dotfiles/blob/main/.config/btop/btop.conf)                 |
+| 📈 **bottom**    | Resource monitor (alternative)    | [`~/.config/bottom/bottom.toml`](https://github.com/ashish0kumar/dotfiles/blob/main/.config/bottom/bottom.toml)         |
+| 🚀 **fastfetch** | System info display               | [`~/.config/fastfetch/config.jsonc`](https://github.com/ashish0kumar/dotfiles/blob/main/.config/fastfetch/config.jsonc) |
 
 <hr/>
 
