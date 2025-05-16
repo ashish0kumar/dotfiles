@@ -1,5 +1,9 @@
 <h1 align="center">🌿 dotfiles</h1>
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/palette/macchiato.png" width="400" />
+</p>
+
 <div align="center">
 <p>
 <a href="https://github.com/ashish0kumar/dotfiles/stargazers"><img src="https://img.shields.io/github/stars/ashish0kumar/dotfiles?style=for-the-badge&logo=starship&color=C9CBFF&logoColor=C9CBFF&labelColor=302D41" alt="stars"><a>&nbsp;&nbsp;
