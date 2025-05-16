@@ -13,8 +13,13 @@
 </p>
 </div>
 
-![](assets/fetch.png) ![](assets/nvim.png) ![](assets/cli_replace.png)
-![](assets/yazi.png) ![](assets/btop.png)
+![](assets/fetch.png) 
+![](assets/nvim.png) 
+![](assets/cli_replace.png)
+![](assets/yazi.png) 
+![](assets/btop.png)
+
+<hr>
 
 ## 🌷 About
 
