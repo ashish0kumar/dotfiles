@@ -1,11 +1,17 @@
-# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
-# Initialization code that may require console input (password prompts, [y/n]
-# confirmations, etc.) must go above this block; everything else may go below.
+# --- Zsh Environment ---
+
+export EDITOR='nvim'
+export GIT_EDITOR='nvim'
+
+export PATH="$HOME/.local/bin:$PATH"
+
+# --- Zinit Setup and Plugin Management ---
+
+# Enable Powerlevel10k instant prompt. Must be sourced close to the top.
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
-# zinit setup
 ZINIT_HOME="${XDG_DATA_HOME:-${HOME}/.local/share}/zinit/zinit.git"
 
 if [ ! -d "$ZINIT_HOME" ]; then
@@ -15,30 +21,37 @@ fi
 
 source "${ZINIT_HOME}/zinit.zsh"
 
-# Add in Powerlevel10k
-zinit ice depth=1; zinit light romkatv/powerlevel10k
+# Load Zinit Plugins
+zinit ice depth=1; zinit light romkatv/powerlevel10k # Powerlevel10k theme
 
-# Add in zsh plugins
-zinit light zsh-users/zsh-syntax-highlighting
-zinit light zsh-users/zsh-completions
-zinit light zsh-users/zsh-autosuggestions
-zinit light Aloxaf/fzf-tab
+zinit light zsh-users/zsh-syntax-highlighting  # Syntax highlighting
+zinit light zsh-users/zsh-completions          # Enhanced completions
+zinit light zsh-users/zsh-autosuggestions      # Autosuggestions from history
+zinit light Aloxaf/fzf-tab                     # fzf integration for completions
 
-# Load completions
-autoload -Uz compinit && compinit
+zinit cdreplay -q # Replay Zinit commands
 
-zinit cdreplay -q
+# --- Completions ---
+
+autoload -Uz compinit
+
+# Completion styling and behavior
+zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'             # Case-insensitive
+zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"            # Use LS_COLORS
+zstyle ':completion:*' menu no                                     # No default menu
+zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath' # fzf-tab preview
+zstyle ':completion:*' dumpfile ~/.cache/zsh/.zcompdump            # Cache file
+
+compinit # Initialize completions
+
+# --- Prompt Configuration ---
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+# Must be sourced AFTER the powerlevel10k plugin is loaded.
+[[ -f ~/.p10k.zsh ]] && source ~/.p10k.zsh
 
-# Keybindings
-bindkey -e
-bindkey '^p' history-search-backward
-bindkey '^n' history-search-forward
-bindkey '^[w' kill-region
+# --- History Settings ---
 
-# History
 HISTSIZE=5000
 HISTFILE=~/.zsh_history
 SAVEHIST=$HISTSIZE
@@ -51,18 +64,15 @@ setopt hist_save_no_dups
 setopt hist_ignore_dups
 setopt hist_find_no_dups
 
-# Completion styling
-zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
-zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"
-zstyle ':completion:*' menu no
-zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'
-zstyle ':completion:*' dumpfile ~/.cache/zsh/zcompdump
+# --- Keybindings ---
 
-# Default editor
-export EDITOR=nvim
-export GIT_EDITOR=nvim
+bindkey -e
+bindkey '^p' history-search-backward
+bindkey '^n' history-search-forward
+bindkey '^[w' kill-region
 
-# Aliases
+# --- Aliases ---
+
 alias vim='nvim'
 alias c='clear'
 
@@ -96,48 +106,51 @@ alias gn="git checkout -b"
 alias gi="git init"
 alias gcl="git clone"
 
-export PATH=$HOME/.local/bin:$PATH
+# --- Tool Specific Configurations ---
 
-# nvm setup
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+# FNM
+FNM_PATH="/home/ashish/.local/share/fnm"
+if [ -d "$FNM_PATH" ]; then
+  export PATH="/home/ashish/.local/share/fnm:$PATH"
+  eval "`fnm env`"
+  eval "$(fnm env --use-on-cd)" # Use on directory change
+fi
 
+# Keychain
 eval $(keychain --eval --agents ssh id_ed25519 2>/dev/null)
 
-# bun completions
-[ -s "/home/ashish/.bun/_bun" ] && source "/home/ashish/.bun/_bun"
-
-# bun
+# Bun
+[ -s "/home/ashish/.bun/_bun" ] && source "/home/ashish/.bun/_bun" # Bun completions
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 
-# pnpm
+# PNPM
 export PNPM_HOME="/home/ashish/.local/share/pnpm"
 case ":$PATH:" in
   *":$PNPM_HOME:"*) ;;
   *) export PATH="$PNPM_HOME:$PATH" ;;
 esac
 
-# go
-export PATH=$PATH:/usr/local/go/bin
-export GOPATH=$HOME/.local/go
-export PATH=$GOPATH/bin:$PATH
+# Go
+export PATH="$PATH:/usr/local/go/bin"
+export GOPATH="$HOME/.local/go"
+export PATH="$GOPATH/bin:$PATH"
 
-# zoxide
-export _ZO_ECHO='1'
+# Zoxide
+export _ZO_ECHO='1' # Echo directory on cd
 eval "$(zoxide init --cmd cd zsh)"
 
-# bat-man integration
+# Bat-man (Integrate bat with man pages)
 export MANPAGER="sh -c 'col -bx | batcat -l man -p'"
 
-# fzf
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
+# FZF
+# Set options BEFORE sourcing the keybindings script
 export FZF_DEFAULT_OPTS=" \
 --color=bg+:#313244,bg:#1e1e2e,spinner:#f5e0dc,hl:#f38ba8 \
 --color=fg:#cdd6f4,header:#f38ba8,info:#cba6f7,pointer:#f5e0dc \
 --color=marker:#b4befe,fg+:#cdd6f4,prompt:#cba6f7,hl+:#f38ba8 \
 --color=selected-bg:#45475a \
---multi
+--multi \
 --preview-window=right:70%"
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh # Source keybindings and completions
