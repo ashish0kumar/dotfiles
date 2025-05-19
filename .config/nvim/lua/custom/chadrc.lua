@@ -32,4 +32,6 @@ M.ui = {
 
 M.plugins = "custom.plugins"
 
+require("custom")
+
 return M
