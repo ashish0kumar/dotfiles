@@ -3,7 +3,7 @@
   "logo": {
     "source": "ubuntu_small",
     "padding": {
-      "top": 2,
+      "top": 1,
       "right": 4
     }
   },
@@ -11,50 +11,51 @@
     "separator": " "
   },
   "modules": [
-	  "break",
-	  "break",
-	  {
-      "type": "title",
-      "keyWidth": 10
+    "break",
+    "break",
+    {
+      "type": "title"
     },
     "break",
     {
       "type": "os",
       "key": " ",
-      "keyColor": "green"
+      "keyColor": "red",
+      "format": "{pretty-name}"
     },
     {
       "type": "kernel",
       "key": " ",
-      "keyColor": "green"
+      "keyColor": "red",
+      "format": "microsoft standard WSL2" // hardcoded
     },
     {
       "type": "shell",
       "key": " ",
-      "keyColor": "green"
-    },
-    {
-      "type": "uptime",
-      "key": " ",
-      "keyColor": "green"
+      "keyColor": "red"
     },
     {
       "type": "packages",
-      "format": "{} (apt)",
       "key": " ",
-      "keyColor": "green"
+      "keyColor": "red",
+      "format": "{} (apt)"
+    },
+    {
+      "type": "uptime",
+      "key": " ",
+      "keyColor": "red"
     },
     {
       "type": "memory",
       "key": " ",
-      "keyColor": "green"
+      "keyColor": "red",
+      "format": "{used} / {total}"
     },
     "break",
     {
       "type": "colors",
       "symbol": "circle"
     },
-
     "break",
     "break"
   ]
