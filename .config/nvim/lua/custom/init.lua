@@ -7,3 +7,16 @@ vim.api.nvim_echo = function(chunks, history, opts)
   end
   orig_echo(chunks, history, opts)
 end
+
+vim.g.clipboard = {
+  name = 'clip-wsl',
+  copy = {
+    ['+'] = 'clip.exe',
+    ['*'] = 'clip.exe',
+  },
+  paste = {
+    ['+'] = 'powershell.exe -command "Get-Clipboard"',
+    ['*'] = 'powershell.exe -command "Get-Clipboard"',
+  },
+  cache_enabled = 0,
+}
