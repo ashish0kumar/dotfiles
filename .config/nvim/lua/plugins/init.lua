@@ -1,6 +1,18 @@
 -- All plugins have lazy=true by default,to load a plugin on startup just lazy=false
 -- List of all default plugins & their definitions
 local default_plugins = {
+  {
+    "kawre/leetcode.nvim",
+    dependencies = {
+      "nvim-telescope/telescope.nvim", -- optional
+      "MunifTanjim/nui.nvim",
+      "nvim-lua/plenary.nvim",
+    },
+    config = function()
+      require("leetcode").setup()
+    end,
+    cmd = "Leet",
+  },
 
   "nvim-lua/plenary.nvim",
 

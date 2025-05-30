@@ -76,6 +76,9 @@ bindkey '^[w' kill-region
 alias vim='nvim'
 alias c='clear'
 
+# leetcode.nvim
+alias lc='nvim -c Leet'
+
 # exa aliases
 alias ls='eza --group-directories-first --icons'
 alias la='eza -a --group-directories-first --icons'
@@ -153,4 +156,5 @@ export FZF_DEFAULT_OPTS=" \
 --multi \
 --preview-window=right:70%"
 
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh # Source keybindings and completions
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh # Source keybindings and Completions
+
