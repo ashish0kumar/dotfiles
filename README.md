@@ -85,10 +85,10 @@ looking to streamline their setups.
 This repository uses [**GNU Stow**](https://www.gnu.org/software/stow/) to
 manage dotfiles efficiently by symlinking them into the appropriate locations.
 
-Make sure **GNU Stow is installed**:
+> [!WARNING]
+> If you have existing config files, back them up before running `stow .` to avoid overwriting.
 
-- **Ubuntu/Debian:** `sudo apt install stow`
-- **macOS:** `brew install stow`
+Make sure **GNU Stow is installed**
 
 1. **Clone the repository**
    ```bash
@@ -101,23 +101,20 @@ Make sure **GNU Stow is installed**:
    stow .
    ```
 
-## 📜 License
-
-Licensed under the [MIT License](LICENSE). <br> Feel free to use and modify
-these dotfiles.
-
 <hr/>
 
 ## 💫 Star History
 
-<a href="https://star-history.com/#ashish0kumar/dotfiles&Date">
+<a href="https://www.star-history.com/#ashish0kumar/dotfiles&Timeline">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=ashish0kumar/dotfiles&type=Date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=ashish0kumar/dotfiles&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=ashish0kumar/dotfiles&type=Date" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=ashish0kumar/dotfiles&type=Timeline&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=ashish0kumar/dotfiles&type=Timeline" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=ashish0kumar/dotfiles&type=Timeline" />
  </picture>
 </a>
 
+<br>
+<br>
 <br>
 
 <p align="center">
