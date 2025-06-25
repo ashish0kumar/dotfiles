@@ -2,6 +2,13 @@
 -- List of all default plugins & their definitions
 local default_plugins = {
   {
+    "ashish0kumar/snake.nvim",
+    cmd = "Snake",
+    config = function()
+      require("snake").setup()
+    end,
+  },
+  {
     "kawre/leetcode.nvim",
     dependencies = {
       "nvim-telescope/telescope.nvim", -- optional
