@@ -43,8 +43,6 @@ looking to streamline their setups.
 
 ## ✨ Features
 
-A quick overview of my core CLI tools and configs
-
 > [!NOTE]
 > Some of these apps have the **config files** included in the repo, which are
 > marked with ⚙️. Also, my **favorite programs** and tools are marked with 💖.
