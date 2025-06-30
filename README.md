@@ -17,24 +17,15 @@
   <img src="assets/fetch.png" alt="fetch" width="100%"/>
 </div>
 
-<table style="border-collapse: collapse;">
-  <tr>
-    <td align="center" style="padding: 0;">
-      <img src="assets/nvim.png" alt="Neovim" width="450"/>
-    </td>
-    <td align="center" style="padding: 0;">
-      <img src="assets/cli_replace.png" alt="CLI Replace" width="450"/>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" style="padding: 0;">
-      <img src="assets/yazi.png" alt="Yazi" width="450"/>
-    </td>
-    <td align="center" style="padding: 0;">
-      <img src="assets/btop.png" alt="btop" width="450"/>
-    </td>
-  </tr>
-</table>
+<div align="center">
+  <img src="assets/nvim.png" alt="Neovim" width="49%"/>
+  <img src="assets/cli_replace.png" alt="CLI Replace" width="49%"/>
+</div>
+
+<div align="center">
+  <img src="assets/yazi.png" alt="Yazi" width="49%"/>
+  <img src="assets/btop.png" alt="btop" width="49%"/>
+</div>
 
 ---
 
