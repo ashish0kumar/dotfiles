@@ -39,22 +39,7 @@ looking to streamline their setups.
 > All configurations related to my **Windows environment** are maintained in a
 > separate repository: [**windots**](https://github.com/ashish0kumar/windots)
 
-## ✨ Features
-
-| 🛠️ Tool          | 📄 Description                    | ⚙️ Config                                                                                                             |
-| ---------------- | --------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| 🐚 **zsh**       | Unix shell                        | [`~/.zshrc`](https://github.com/ashish0kumar/dotfiles/blob/main/.zshrc)                                                 |
-| ⚡ **p10k**      | Zsh prompt theme                  | [`~/.p10k.zsh`](https://github.com/ashish0kumar/dotfiles/blob/main/.p10k.zsh)                                           |
-| 🪄 **git**       | Version control system            | [`~/.config/git/`](https://github.com/ashish0kumar/dotfiles/blob/main/.config/git/)                                      |
-| 🖥️ **tmux**      | Terminal multiplexer              | [`~/.config/tmux/tmux.conf`](https://github.com/ashish0kumar/dotfiles/blob/main/.config/tmux/tmux.conf)                 |
-| 🔮 **neovim**    | Text editor                       | [`~/.config/nvim/`](https://github.com/ashish0kumar/dotfiles/blob/main/.config/nvim/)                                    |
-| 🦇 **bat**       | File viewer with syntax highlight | [`~/.config/bat/config`](https://github.com/ashish0kumar/dotfiles/blob/main/.config/bat/config)                         |
-| 📂 **yazi**      | Terminal File manager             | [`~/.config/yazi/`](https://github.com/ashish0kumar/dotfiles/blob/main/.config/yazi/)                                    |
-| 📊 **btop**      | Resource monitor                  | [`~/.config/btop/btop.conf`](https://github.com/ashish0kumar/dotfiles/blob/main/.config/btop/btop.conf)                 |
-| 📈 **bottom**    | Resource monitor (alternative)    | [`~/.config/bottom/bottom.toml`](https://github.com/ashish0kumar/dotfiles/blob/main/.config/bottom/bottom.toml)         |
-| 🚀 **fastfetch** | System info display               | [`~/.config/fastfetch/config.jsonc`](https://github.com/ashish0kumar/dotfiles/blob/main/.config/fastfetch/config.jsonc) |
-
-<hr/>
+---
 
 ## 🌸 Core CLI Info
 
@@ -74,11 +59,12 @@ looking to streamline their setups.
 | **Cat Replacement**      | [bat](https://github.com/sharkdp/bat) [⚙️](https://github.com/ashish0kumar/dotfiles/tree/main/.config/bat)                                                                                                                                                          |
 | **File Manager**         | 💖 [yazi](https://yazi-rs.github.io/) [⚙️](https://github.com/ashish0kumar/dotfiles/tree/main/.config/yazi)                                                                                                                                                         |
 | **Fuzzy File Finder**    | 💖 [fzf](https://github.com/junegunn/fzf)                                                                                                                                                                                                                           |
+| **Git**                  | [git](https://git-scm.com/) [⚙️](https://github.com/ashish0kumar/dotfiles/tree/main/.config/git)                                                                                                                                                                 |
 | **Git TUI**              | [lazygit](https://github.com/jesseduffield/lazygit)                                                                                                                                                                                                                 |
 | **System Monitor**       | [btop](https://github.com/aristocratos/btop) [⚙️](https://github.com/ashish0kumar/dotfiles/blob/main/.config/btop/btop.conf) & [bottom](https://github.com/ClementTsang/bottom) [⚙️](https://github.com/ashish0kumar/dotfiles/blob/main/.config/bottom/bottom.toml) |
 | **System Fetch**         | [fastfetch](https://github.com/fastfetch-cli/fastfetch) [⚙️](https://github.com/ashish0kumar/dotfiles/blob/main/.config/fastfetch/config.jsonc)                                                                                                                     |
 
-<hr/>
+---
 
 ## 🔧 Setup
 
@@ -101,7 +87,7 @@ Make sure **GNU Stow is installed**
    stow .
    ```
 
-<hr/>
+---
 
 ## 💫 Star History
 
